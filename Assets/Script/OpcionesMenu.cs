@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using TMPro;
+using UnityEngine.UI;
 
 public class OpcionesMenu : MonoBehaviour
 {
@@ -14,7 +15,15 @@ public class OpcionesMenu : MonoBehaviour
     public AudioClip Sh2;
     public TextMeshProUGUI[] Cancion;
     public GameObject[] Niveles;
-    
+
+    public Slider Volumeslider;
+    public GameObject Song1;
+    public GameObject Song2;
+    public GameObject Level1;
+    public GameObject Level2;
+    public GameObject Level3;
+    public GameObject Level4;
+
 
     void Start()
     {
